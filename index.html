@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=2.0">
+	<title>NiceBot | Бот для вашего сервера</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="description" content="NiceBot - Да пусть на сервере всё будет Nice!">
+	<meta name="theme-color" content="#ffb000">
+	<!-- <meta property="og:image" content="./imgs/nicebot-1.png"> -->
+
+	<script>
+		var isMobile = /Mobi|Android/i.test(navigator.userAgent);
+
+		if (isMobile) {
+			window.location.href = "./m";
+		}
+	</script>
+</head>
+<header class="wrapper">
+	<h1 class="gold">Nice</h1> <h1 class="bot">Bot</h1>
+	<p class="small-desc">Да пусть на сервере всё будет <g>Nice!</g></p>
+	<p class="description">Лучший бот для твоего сервера в Discord Поможет тебе с Модерацией, опросами, NSFW и многое другое!</p>
+</header>
+<body class="content">
+<div class="add-bot">
+	<button id="AddBot" class="add-button" onclick="redirect">Добавить на сервер</button>
+</div>
+<div class="img-bot">
+	<img src="./imgs/nicebot-1.png">
+</div>
+
+<div class="rank-system">
+	<h2>1. Ранг-система</h2>
+	<p>Своя собственная ранговая система У каждого пользователя есть своя статистика топ в боте.</p>
+</div>
+
+<div class="mod-system">
+	<h2>2. Модерация</h2>
+	<p>Есть преступник на сервере? Дай ему просто бан!</p>
+</div>
+
+<div class="poll-system">
+	<h2>3. Опросы</h2>
+	<p>Хочешь провести совет или опрос среди участников? Используй команду ::poll</p>
+</div>
+
+<div class="sandbox-system">
+	<h2>4. Песочница</h2>
+	<p>Ты разработчик всяких штук? Тогда тебе нужна песочница!</p>
+	<p class="print-hello-developer">Кстати print(“Hello, developer!”)</p>
+</div>
+
+<div class="nsfw-system">
+	<h2>5. NSFW</h2>
+	<p>Опа ну это уже смотря кому надо а так.
+		Нужно использовать в NSFW канале по правилам Discord!</p>
+</div>
+
+<script src="./js/index.js"></script>
+
+</body>
+<footer>
+	<p>Сайт был сделан @syirezz</p>
+</footer>
+</html>
